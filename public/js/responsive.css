@@ -1,0 +1,232 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	nav ul li {
+    padding: 0px 13px;
+}
+.tab-links li a {
+    margin: 0px 30px;
+}
+.mati {
+    padding: 45px 0 0px 30px;
+}
+.blue {
+    padding: 45px 30px 0 10px;
+}
+.compny a {
+    margin: 0 12px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	nav ul li {
+    padding: 0px 8px;
+}
+.tab-links li a {
+    margin: 0px 0px;
+}
+.tab-links li a span {
+    margin-right: 14px;
+}
+.mati {
+    padding: 45px 0 0px 30px;
+}
+.blue {
+    padding: 45px 30px 0 10px;
+}
+.compny a {
+    margin: 5px 10px;
+}
+.logo h1 a img {
+    width: 100%;
+}
+.login a {
+    width: 100%;
+}
+nav ul li a {
+    font-size: 12px;
+}
+.oneslide img {
+    height: 450px;
+}
+.slidecon {
+    top: 18%;
+}
+.slidecon h2 {
+    font-size: 34px;
+    line-height: 60px;
+}
+.bx-wrapper .bx-next {
+    right: 17%;
+}
+.comunnity h2 {
+    font-size: 27px;
+}
+
+.tab-content {
+    padding: 60px 0 10px 15px;
+}
+.work {
+    padding: 50px 0;
+	}
+
+}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.login {
+    display: none;
+}
+.oneslide img {
+    height: 350px;
+}
+.slidecon h2 {
+    font-size: 23px;
+    line-height: 31px;
+}
+.slidecon p {
+    font-size: 20px;
+    line-height: 38px;
+}
+.slidecon a {
+    width: 200px;
+    margin: 0px auto 0;
+    font-size: 18px;
+    line-height: 48px;
+}
+.slidecon {
+    top: 27%;
+}
+nav {
+    width: auto !important;
+    text-align: center;
+}
+.bx-wrapper .bx-next {
+    right: 9%;
+}
+.work {
+    padding: 30px 0;
+}
+.work h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.work p {
+    margin-bottom: 20px;
+    line-height: 26px;
+    font-size: 16px;
+}
+.tab-links li a {
+    padding: 0px 3px 10px 0;
+    font-size: 13px;
+    margin: 0px 0px;
+}
+.tab-links li a span {
+    padding: 3px 8px;
+    font-size: 14px;
+    margin-right: 0px;
+}
+
+
+.tab-content {
+    padding: 10px 0;
+}
+.halfleft {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.rightleft {
+    width: 100%;
+    float: none;
+	padding-top:10px;
+}		
+.rightleft h3 {
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+.maintabs {
+    padding: 10px 0 30px;
+}
+.blue {
+    width: 100%;
+    float: left;
+    padding: 20px 15px;
+}
+.mati {
+    width: 100%;
+    padding: 20px 15px;
+}
+.w2 {
+    width: 100%;
+    float: none;
+    padding-top: 0;
+    text-align: center;
+}
+.w8 {
+    width: 100%;
+    float: none;
+    padding-top: 0;
+    text-align: center;
+}
+.blurright a, .matileft a {
+    margin: 20px auto 0;
+}
+.blurright h3, .matileft h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.projects a {
+    float: none;
+    margin: 25px auto;
+    display: block;
+}
+.projects {
+    padding: 30px 0;
+}
+.one {
+    margin-bottom: 15px;
+}
+.comunnity h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+.arrow_box {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+.img {
+    margin-left: 23px;
+}
+.comunnity h5 {
+    margin-bottom: 30px;
+}
+.compny a {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.compny {
+    padding: 30px 0;
+}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.tab-links li a {
+
+    margin: 0px 40px;
+}
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		
+		}
+

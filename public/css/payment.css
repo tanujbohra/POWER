@@ -1,0 +1,145 @@
+.razorpay-payment-button {
+  color:black;
+  background-color: #2bcf71;
+  border-color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: 38%;
+  display: none;
+  z-index: 999;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+    font-family: montserrat, arial, verdana;
+    background: transparent;
+}
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    z-index: 0;
+}
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+}
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #2bcf71;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+#msform input[type="radio"]{
+	width: 5%;
+	margin: 10px 0px 15px;
+
+}
+#msform .action-button {
+    width: 100px;
+    background: #2bcf71;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #2bcf71;
+}
+#msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.radio-pink [type="radio"]:checked+label:after {
+    border-color: #e91e63;
+    background-color: #2bcf71;
+}
+.radio-pink-gap [type="radio"].with-gap:checked+label:before {
+    border-color: #2bcf71;
+}
+.radio-pink-gap [type="radio"]:checked+label:after {
+    border-color: #e91e63;
+    background-color: #2bcf71;;
+}  
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    counter-reset: step;
+}
+#progressbar li {
+    list-style-type: none;
+    color: ;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+}
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    background: black;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+}
