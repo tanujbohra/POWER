@@ -11,3 +11,5 @@ REGISTRATION PAGE:
 ![alt text](https://github.com/tanujbohra/POWER--A-crowdsourcing-and-freelancing-portal/blob/master/git_images/Screen%20Shot%202020-08-13%20at%2012.13.47%20PM.png)
 EXPLORE:
 ![alt text](https://github.com/tanujbohra/POWER--A-crowdsourcing-and-freelancing-portal/blob/master/git_images/Screen%20Shot%202020-08-13%20at%2012.41.10%20PM.png)
+PAYMENT:
+![alt text](https://github.com/tanujbohra/POWER--A-crowdsourcing-and-freelancing-portal/blob/master/git_images/Screen%20Shot%202020-08-13%20at%2012.46.13%20PM.png)
